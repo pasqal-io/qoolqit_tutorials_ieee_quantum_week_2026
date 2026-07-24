@@ -1,5 +1,6 @@
 # QoolQit tutorial - IEEE Quantum Week 2026
-QoolQit tutorial - IEEE Quantum Week 2026
+This repository contains the tutorials and exercises for the **IEEE Quantum Week 2026**.
+In this README you will find the agenda and the instructions on how to download this repository, install the `qoolqit` library and start programming neutral-atom based QPUs.
 
 # Session 1 — Foundations and Your First Quantum Program
 ​
