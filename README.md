@@ -150,3 +150,7 @@ Participants should have:
 ### Clone this repository
 ```console
 git clone https://github.com/pasqal-io/qoolqit_tutorials_ieee_quantum_week_2026.git
+ 
+### Clone this repository
+```console
+git clone https://github.com/pasqal-io/qoolqit_tutorials_ieee_quantum_week_2026.git
