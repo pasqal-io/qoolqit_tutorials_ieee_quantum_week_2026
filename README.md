@@ -146,3 +146,7 @@ Participants should have:
 - Basic familiarity with Python and NumPy
 - A working QoolQit environment
 - The Session 2 notebook downloaded locally
+ 
+### Clone this repository
+```console
+git clone https://github.com/pasqal-io/qoolqit_tutorials_ieee_quantum_week_2026.git
