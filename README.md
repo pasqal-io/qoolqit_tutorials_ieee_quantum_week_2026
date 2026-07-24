@@ -1,4 +1,4 @@
-# qoolqit_tutorials_ieee_quantum_week_2026
+# QoolQit tutorial - IEEE Quantum Week 2026
 QoolQit tutorial - IEEE Quantum Week 2026
 
 # Session 1 — Foundations and Your First Quantum Program
