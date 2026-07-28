@@ -56,41 +56,41 @@ Participants will:
 4. Compile the program.
 5. Run it using an emulator or an available backend.
 6. Inspect and interpret the results.
-​
+
 ### 5. Recap and questions — 5 min
 ​
 - Review of the key concepts
 - Common issues and troubleshooting tips
 - Questions and discussion
 - Preview of the next session
-​
+
 ## Prerequisites
 ​
 Participants should have:
-​
+
 - Basic familiarity with Python
 - A working Python environment
 - Access to the tutorial environment or repository
 - QoolQit and the required dependencies installed
-​
+
 No previous experience with quantum programming is required.
-​
+
 ## Suggested preparation
 ​
 Before the session:
-​
+
 1. Verify that the tutorial environment starts correctly.
 2. Confirm that QoolQit can be imported.
 3. Download or clone the tutorial materials.
 4. Review the installation and documentation links provided by the instructors.
-​
+
 ---
-​
+
 # Session 2 — Combinatorial Optimization with QoolQit
-​
+
 **Duration:** 90 minutes  
 **Format:** Presentation, live demonstration, and hands-on notebook  
-​
+
 ## Overview
 ​
 This session introduces combinatorial optimization on analog neutral-atom hardware. Participants will formulate a problem as a QUBO, embed it into an atom register, design and compile an adiabatic quantum program, simulate its execution, and decode the measurement results.
@@ -98,7 +98,7 @@ This session introduces combinatorial optimization on analog neutral-atom hardwa
 ## Learning objectives
 ​
 By the end of the session, participants will be able to:
-​
+
 - Express a combinatorial optimization problem as a QUBO.
 - Explain the relationship between a problem graph, a QUBO matrix, and an atom register.
 - Distinguish device-constrained and unconstrained embedding.
@@ -107,7 +107,7 @@ By the end of the session, participants will be able to:
 - Compile and simulate an optimization program.
 - Decode measurement outcomes and assess solution quality.
 - Submit a job to a remote emulator through the PASQAL Cloud platform, subject to access and token availability.
-​
+
 ### 1. QUBO and embedding — 20 min
 ​
 - Definition of Quadratic Unconstrained Binary Optimization
@@ -129,20 +129,20 @@ Participants work individually on their laptops using a guided notebook. The not
 - Step 5 — Decode the solution
 - Step 6 — Explore the parameters
 - Step 7 — Access PASQAL Cloud
-​
+
 ### 3. Outlook, resources, feedback, and Q&A — 15 min
 ​
 - Moving from local simulation to a real QPU
 - Beyond combinatorial optimization: Quantum State Preparation
 - Contributing to QoolQit and the broader neutral-atom open-source ecosystem
 - Open questions
-​
+
 ### 4. Buffer — 15 min
-​
+
 ## Prerequisites
 ​
 Participants should have:
-​
+
 - Basic familiarity with Python and NumPy
 - A working QoolQit environment
 - The Session 2 notebook downloaded locally
