@@ -2,15 +2,37 @@
 This repository contains the tutorials and exercises for the **IEEE Quantum Week 2026**.
 In this README you will find the agenda and the instructions on how to download this repository, install the `qoolqit` library and start programming neutral-atom based QPUs.
 
-# Session 1 — Foundations and Your First Quantum Program
+## Prerequisites
+
+Participants should have:
+
+- Basic familiarity with Python and NumPy
+- A working Python environment
+- QoolQit and the required dependencies installed
+- The Session 2 notebook downloaded locally
+- *(Optional)* An account for the [Pasqal Cloud Portal](https://portal.pasqal.cloud/) \*\*
+
+No previous experience with quantum programming is required.
+
+\*\* At the end of the second session, we will give the possibility to the participants to run on our remotely emulators the code. In order to do so, the interested participants shall create beforehand an account to our Cloud portal. This is by no means a required action and skipping this step will not jeopardise the value of this tutorial.
+Nonetheless, we strongly encourage the participants to try out (for free!) the phase of scaling up the problem. 
+
+## Clone this repository
+```console
+git clone https://github.com/pasqal-io/qoolqit_tutorials_ieee_quantum_week_2026.git
+```
+
+​
+
+## Session 1 — Foundations and Your First Quantum Program
 ​
 **Duration:** 90 minutes  
 **Format:** Presentation, discussion, and hands-on tutorial  
 ​
-## Overview
+### Overview
 This introductory session presents the foundations of analog quantum computing with neutral atoms and introduces QoolQit, PASQAL's software library for developing quantum applications.
 ​
-## Learning objectives
+### Learning objectives
 By the end of the session, participants will be able to:
 ​
 - Explain the main differences between gate-based and analog quantum computing.
@@ -57,35 +79,19 @@ Participants will:
 - Questions and discussion
 - Preview of the next session
 
-## Prerequisites
-Participants should have:
 
-- Basic familiarity with Python
-- A working Python environment
-- Access to the tutorial environment or repository
-- QoolQit and the required dependencies installed
-
-No previous experience with quantum programming is required.
-
-## Suggested preparation
-Before the session:
-
-1. Verify that the tutorial environment starts correctly.
-2. Confirm that QoolQit can be imported.
-3. Download or clone the tutorial materials.
-4. Review the installation and documentation links provided by the instructors.
 
 ---
 
-# Session 2 — Combinatorial Optimization with QoolQit
+## Session 2 — Combinatorial Optimization with QoolQit
 
 **Duration:** 90 minutes  
 **Format:** Presentation, live demonstration, and hands-on notebook  
 
-## Overview
+### Overview
 This session introduces combinatorial optimization on analog neutral-atom hardware. Participants will formulate a problem as a QUBO, embed it into an atom register, design and compile an adiabatic quantum program, simulate its execution, and decode the measurement results.
 ​
-## Learning objectives
+### Learning objectives
 By the end of the session, participants will be able to:
 
 - Express a combinatorial optimization problem as a QUBO.
@@ -123,16 +129,5 @@ Participants work individually on their laptops using a guided notebook. The not
 - Contributing to QoolQit and the broader neutral-atom open-source ecosystem
 - Open questions
 
-### 4. Buffer — 15 min
-## Prerequisites
-​
-Participants should have:
 
-- Basic familiarity with Python and NumPy
-- A working QoolQit environment
-- The Session 2 notebook downloaded locally
  
-### Clone this repository
-```console
-git clone https://github.com/pasqal-io/qoolqit_tutorials_ieee_quantum_week_2026.git
-```
