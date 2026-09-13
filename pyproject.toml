@@ -1,0 +1,23 @@
+[project]
+name = "qoolqit-notebooks"
+version = "1.4.0"
+description = "Collection of Jupyter notebooks for QoolQit v1.4.*"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "qoolqit==1.4.0",
+    "emu-sv",
+    "ipykernel>=7.2.0",
+    "jupyterlab",
+    "matplotlib",
+    "scikit-learn",
+]
+
+
+[tool.setuptools]
+packages = []
+
+[tool.ruff.lint]
+# The hands-on notebooks are exercises: `...` placeholders leave names undefined
+# (F821) and pre-import the objects needed to fill them in (F401).
+per-file-ignores = { "notebooks/*_hands_on.ipynb" = ["F401", "F821", "F841"] }
