@@ -20,9 +20,58 @@ Nonetheless, we strongly encourage the participants to try out (for free!) the p
 ## Clone this repository
 ```console
 git clone https://github.com/pasqal-io/qoolqit_tutorials_ieee_quantum_week_2026.git
+cd qoolqit_tutorials_ieee_quantum_week_2026
 ```
 
-​
+## Install the environment
+
+The repository ships a `pyproject.toml` that pins `qoolqit==1.4.0` together with the
+emulator and plotting dependencies used by the notebooks. Python **3.10 or newer** is required.
+
+With [`uv`](https://docs.astral.sh/uv/) (recommended):
+```console
+uv venv --python 3.10
+uv pip install -e .
+source .venv/bin/activate
+```
+
+With plain `pip`:
+```console
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+On Windows, activate the environment with `.venv\Scripts\activate` instead.
+
+Check that the installation succeeded:
+```console
+python -c "import qoolqit; print(qoolqit.__version__)"
+```
+This should print `1.4.0`.
+
+## Open the notebooks
+
+```console
+jupyter lab notebooks/
+```
+If you prefer VS Code, open the repository folder and select the `.venv` interpreter as the
+notebook kernel. The two hands-on notebooks are:
+
+- `notebooks/session1_hands_on.ipynb`
+- `notebooks/session2_vrp_hands_on.ipynb`
+
+Both contain cells with `...` placeholders to be filled in during the session.
+
+## *(Optional)* Pasqal Cloud credentials
+
+The bonus cells of Session 2 submit jobs to a remote emulator. They are commented out by
+default; to use them, export your portal credentials before starting Jupyter:
+```console
+export CLOUD_USERNAME="your.email@example.com"
+export CLOUD_PASSWORD="..."
+export CLOUD_PROJECT="your-project-id"
+```
 
 ## Session 1 — Foundations and Your First Quantum Program
 ​
